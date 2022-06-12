@@ -49,10 +49,6 @@ img {
   transition: flex 0.7s ease-in;
 }
 
-.card__active {
-  flex: 5;
-}
-
 .card__text {
   font-size: 2rem;
   position: absolute;
@@ -60,12 +56,15 @@ img {
   left: 20px;
   margin: 0;
   opacity: 0;
-  opacity: 0;
 }
 
-.text__active {
+.card__active {
+  flex: 5;
+}
+
+.card__active h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in .4s;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* Card Backgrounds */
